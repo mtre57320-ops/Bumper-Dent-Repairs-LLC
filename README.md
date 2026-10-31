@@ -1,37 +1,21 @@
-# Bumper Dent Repairs Website
+# Bumper Dent Repairs — GitHub Website
 
-GitHub Pages-ready website for Bumper Dent Repairs in Brownsville, Texas.
+This ZIP contains the complete website with **real local image files** in `images/`.
 
 ## Files
-
-- index.html
-- style.css
-- script.js
-- images/
-
-## Add your photos
-
-Upload your actual photos into the `images` folder using these filenames:
-
-- hero.jpg
-- door-ding.jpg
-- minor-dent.jpg
-- hail-damage.jpg
-- bumper.jpg
-- crease.jpg
-- scratch.jpg
-- headlight.jpg
-- before-after.jpg
+- `index.html`
+- `style.css`
+- `script.js`
+- `images/*.svg`
 
 ## GitHub Pages
-
 1. Create a GitHub repository.
-2. Upload all files and the `images` folder.
-3. Go to Settings → Pages.
-4. Select Deploy from branch.
-5. Select `main` and `/root`.
+2. Upload everything in this folder.
+3. Go to **Settings → Pages**.
+4. Choose **Deploy from a branch**.
+5. Select `main` and `/ (root)`.
 6. Save.
 
-Your site will then be available at:
+The site is bilingual (English/Spanish), responsive, and uses local image assets so the background and service images display without needing remote image URLs.
 
-https://YOUR-USERNAME.github.io/REPOSITORY-NAME/
+The included images are clean automotive illustrations. Replace them with your own real repair photos later for the strongest marketing result.

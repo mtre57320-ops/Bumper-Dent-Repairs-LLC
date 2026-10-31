@@ -1,156 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bumper Dent Repairs | Brownsville, TX</title>
-<meta name="description" content="Professional dent, bumper, hail damage and cosmetic auto repairs in Brownsville, Texas.">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bumper Dent Repairs | Brownsville, TX</title>
+  <meta name="description" content="Bumper Dent Repairs in Brownsville, Texas. Door dings, minor dents, creases, hail damage, scratches, bumper repair and headlight restoration.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
-  <div class="navbar">
-    <a href="#home" class="logo">BUMPER <span>DENT</span> REPAIRS</a>
-    <button class="menu-btn" onclick="toggleMenu()">☰</button>
-    <nav id="nav">
-      <a href="#home">Home</a>
-      <a href="#services">Services</a>
-      <a href="#work">Our Work</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#contact">Contact</a>
-      <div class="language">
-        <button id="enBtn" class="active" onclick="setLanguage('en')">EN</button>
-        <button id="esBtn" onclick="setLanguage('es')">ES</button>
-      </div>
-    </nav>
-  </div>
+  <div class="logo">BUMPER <span>DENT</span> REPAIRS</div>
+  <button class="menu" onclick="toggleMenu()">☰</button>
+  <nav id="nav">
+    <a href="#services">Services</a>
+    <a href="#about">Why Us</a>
+    <a href="#contact">Contact</a>
+    <a href="tel:+19563719738" class="phone">(956) 371-9738</a>
+    <button onclick="toggleLanguage()" class="lang">EN / ES</button>
+  </nav>
 </header>
 
-<section class="hero" id="home">
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <div class="badge">BROWNSVILLE, TEXAS</div>
-    <h1>Your Car Deserves <span>Better.</span></h1>
-    <p data-en="Professional dent, bumper and cosmetic auto repairs. We make your vehicle look great again."
-       data-es="Reparación profesional de abolladuras, defensas y daños cosméticos. Hacemos que su vehículo vuelva a verse excelente.">
-      Professional dent, bumper and cosmetic auto repairs. We make your vehicle look great again.
+<section class="hero">
+  <div class="hero-overlay">
+    <p class="eyebrow" data-en="BROWNSVILLE, TEXAS" data-es="BROWNSVILLE, TEXAS">BROWNSVILLE, TEXAS</p>
+    <h1 data-en="LOOKS DAMAGED. <span>LEAVES LOOKING NEW.</span>" data-es="SE VE DAÑADO. <span>SE VA COMO NUEVO.</span>">LOOKS DAMAGED. <span>LEAVES LOOKING NEW.</span></h1>
+    <p data-en="Professional cosmetic auto repair for dents, dings, scratches, bumpers and more."
+       data-es="Reparación cosmética profesional para golpes, abolladuras, rayones, defensas y más.">
+       Professional cosmetic auto repair for dents, dings, scratches, bumpers and more.
     </p>
-    <div class="hero-buttons">
-      <a href="#contact" class="btn yellow">GET A FREE ESTIMATE</a>
-      <a href="tel:9563719738" class="btn outline">📞 (956) 371-9738</a>
-    </div>
+    <a href="#contact" class="btn" data-en="GET A FREE ESTIMATE" data-es="OBTÉN UNA COTIZACIÓN GRATIS">GET A FREE ESTIMATE</a>
   </div>
 </section>
 
-<section class="services" id="services">
-  <div class="container">
-    <div class="section-heading">
-      <span>WHAT WE DO</span>
-      <h2 data-en="Our Services" data-es="Nuestros Servicios">Our Services</h2>
-      <p>Professional cosmetic auto repair for your vehicle.</p>
-    </div>
-
-    <div class="service-grid">
-      <div class="service-card"><img src="images/door-ding.jpg" alt="Door ding repair"><div><h3>Door Dings</h3><p>Small door dents repaired professionally.</p></div></div>
-      <div class="service-card"><img src="images/minor-dent.jpg" alt="Minor dent repair"><div><h3>Minor Dents</h3><p>Restore your vehicle's original appearance.</p></div></div>
-      <div class="service-card"><img src="images/hail-damage.jpg" alt="Hail damage repair"><div><h3>Hail Damage</h3><p>Professional hail damage dent repair.</p></div></div>
-      <div class="service-card"><img src="images/bumper.jpg" alt="Bumper repair"><div><h3>Bumper Repair</h3><p>Repair dents, scratches and bumper damage.</p></div></div>
-      <div class="service-card"><img src="images/crease.jpg" alt="Crease repair"><div><h3>Creases</h3><p>Careful repair of body-panel creases.</p></div></div>
-      <div class="service-card"><img src="images/scratch.jpg" alt="Scratch repair"><div><h3>Scratch Repair</h3><p>Improve the appearance of scratches.</p></div></div>
-      <div class="service-card"><img src="images/headlight.jpg" alt="Headlight restoration"><div><h3>Headlight Restoration</h3><p>Restore cloudy and faded headlights.</p></div></div>
-      <div class="service-card"><img src="images/door-ding.jpg" alt="Paintless dent repair"><div><h3>Paintless Dent Repair</h3><p>Preserve your factory paint whenever possible.</p></div></div>
-    </div>
+<section id="services" class="section">
+  <div class="section-head">
+    <p class="eyebrow">OUR SERVICES</p>
+    <h2 data-en="REPAIR IT. DON'T REPLACE IT." data-es="REPÁRALO. NO LO REEMPLACES.">REPAIR IT. DON'T REPLACE IT.</h2>
+  </div>
+  <div class="grid">
+    <article><img src="images/door-ding.svg" alt="Door ding repair"><h3>Door Dings</h3><p>Small dents repaired cleanly and efficiently.</p></article>
+    <article><img src="images/minor-dent.svg" alt="Minor dent repair"><h3>Minor Dents</h3><p>Restore body panels without unnecessary replacement.</p></article>
+    <article><img src="images/hail-damage.svg" alt="Hail damage repair"><h3>Hail Damage</h3><p>Professional cosmetic restoration after storms.</p></article>
+    <article><img src="images/bumper.svg" alt="Bumper repair"><h3>Bumper Repair</h3><p>Repair common bumper damage and improve appearance.</p></article>
+    <article><img src="images/crease.svg" alt="Crease repair"><h3>Creases</h3><p>Careful repair for sharp panel creases.</p></article>
+    <article><img src="images/scratch.svg" alt="Scratch repair"><h3>Scratches</h3><p>Improve the look of scratched and scuffed areas.</p></article>
+    <article><img src="images/headlight.svg" alt="Headlight restoration"><h3>Headlight Restoration</h3><p>Refresh cloudy headlights for a cleaner look.</p></article>
   </div>
 </section>
 
-<section class="work" id="work">
-  <div class="container">
-    <div class="section-heading">
-      <span>OUR WORK</span>
-      <h2>See The Difference</h2>
-    </div>
-    <div class="before-after">
-      <div class="work-card"><img src="images/before-after.jpg" alt="Vehicle before repair"><strong>BEFORE</strong></div>
-      <div class="work-card"><img src="images/hero.jpg" alt="Vehicle after repair"><strong>AFTER</strong></div>
-    </div>
+<section class="before">
+  <img src="images/before-after.svg" alt="Before and after repair illustration">
+  <div>
+    <p class="eyebrow">THE DIFFERENCE</p>
+    <h2>SMALL REPAIR.<br><span>BIG DIFFERENCE.</span></h2>
+    <p>Our goal is simple: make your vehicle look its best while helping you avoid unnecessary replacement costs.</p>
+    <a href="#contact" class="btn">REQUEST AN ESTIMATE</a>
   </div>
 </section>
 
-<section class="why">
-  <div class="container">
-    <div class="section-heading dark-heading">
-      <span>WHY CHOOSE US</span>
-      <h2>Professional. Honest. Local.</h2>
-    </div>
-    <div class="why-grid">
-      <div class="why-card"><div class="icon">✓</div><h3>Quality Repairs</h3><p>We focus on quality workmanship and attention to detail.</p></div>
-      <div class="why-card"><div class="icon">★</div><h3>Local Experts</h3><p>Proudly serving Brownsville and the Rio Grande Valley.</p></div>
-      <div class="why-card"><div class="icon">$</div><h3>Fair Pricing</h3><p>Get the repair you need without unnecessary body-shop costs.</p></div>
-    </div>
+<section id="about" class="section dark">
+  <div class="section-head">
+    <p class="eyebrow">WHY CHOOSE US</p>
+    <h2>LOCAL. PROFESSIONAL. DETAIL-FOCUSED.</h2>
+  </div>
+  <div class="benefits">
+    <div><strong>01</strong><h3>Quality Work</h3><p>Careful cosmetic repair focused on the finished appearance.</p></div>
+    <div><strong>02</strong><h3>Local Service</h3><p>Proudly serving Brownsville and the surrounding Rio Grande Valley.</p></div>
+    <div><strong>03</strong><h3>Free Estimates</h3><p>Contact us to discuss the damage and next steps.</p></div>
   </div>
 </section>
 
-<section class="reviews" id="reviews">
-  <div class="container">
-    <div class="section-heading">
-      <span>CUSTOMER REVIEWS</span>
-      <h2>What Our Customers Say</h2>
-    </div>
-    <div class="review-grid">
-      <div class="review"><div class="stars">★★★★★</div><p>"Great work and very professional. My door dent looks like it was never there."</p><strong>— Local Customer</strong></div>
-      <div class="review"><div class="stars">★★★★★</div><p>"Fast service, fair price and my truck looks great again."</p><strong>— Brownsville Customer</strong></div>
-      <div class="review"><div class="stars">★★★★★</div><p>"I would definitely recommend Bumper Dent Repairs."</p><strong>— Rio Grande Valley Customer</strong></div>
-    </div>
+<section id="contact" class="contact">
+  <div>
+    <p class="eyebrow">CONTACT US</p>
+    <h2>READY TO FIX THAT DENT?</h2>
+    <p>Call us or send a message for an estimate.</p>
+    <p><strong>Office:</strong> <a href="tel:+19563719738">(956) 371-9738</a></p>
+    <p><strong>Fax:</strong> (956) 546-4544</p>
   </div>
-</section>
-
-<section class="cta">
-  <div class="container">
-    <h2>Got a Dent?</h2>
-    <p>Send us a photo and let's see what we can do.</p>
-    <a href="#contact" class="btn yellow">REQUEST AN ESTIMATE</a>
-  </div>
-</section>
-
-<section class="contact" id="contact">
-  <div class="container contact-grid">
-    <div class="contact-info">
-      <span>CONTACT US</span>
-      <h2>Let's Fix Your Car</h2>
-      <p>Contact Bumper Dent Repairs in Brownsville, Texas for a free estimate.</p>
-      <div class="details">
-        <p>📞 <strong>Office</strong><br><a href="tel:9563719738">(956) 371-9738</a></p>
-        <p>📠 <strong>Fax</strong><br>(956) 546-4544</p>
-        <p>📍 <strong>Location</strong><br>Brownsville, Texas</p>
-      </div>
-    </div>
-
-    <form onsubmit="submitForm(event)">
-      <input type="text" placeholder="Your Name" required>
-      <input type="tel" placeholder="Phone Number" required>
-      <input type="email" placeholder="Email">
-      <select>
-        <option>Select Service</option>
-        <option>Door Ding</option>
-        <option>Minor Dent</option>
-        <option>Hail Damage</option>
-        <option>Bumper Repair</option>
-        <option>Scratch Repair</option>
-        <option>Headlight Restoration</option>
-      </select>
-      <textarea placeholder="Tell us about the damage..."></textarea>
-      <button type="submit">REQUEST FREE ESTIMATE</button>
-    </form>
-  </div>
+  <form onsubmit="sendForm(event)">
+    <input required type="text" placeholder="Your name">
+    <input required type="tel" placeholder="Phone number">
+    <textarea required rows="5" placeholder="Tell us about the damage"></textarea>
+    <button class="btn" type="submit">REQUEST ESTIMATE</button>
+  </form>
 </section>
 
 <footer>
-  <div class="container footer-content">
-    <div class="footer-logo">BUMPER <span>DENT</span> REPAIRS</div>
-    <div>Office: (956) 371-9738<br>Fax: (956) 546-4544</div>
-    <div>Brownsville, Texas</div>
-  </div>
+  <div class="logo">BUMPER <span>DENT</span> REPAIRS</div>
+  <p>Brownsville, Texas • (956) 371-9738</p>
+  <p>Fax: (956) 546-4544</p>
 </footer>
 
 <script src="script.js"></script>

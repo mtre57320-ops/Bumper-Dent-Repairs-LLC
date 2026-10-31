@@ -1,15 +1,11 @@
-function toggleMenu(){document.getElementById("nav").classList.toggle("show")}
-function setLanguage(language){
-  document.querySelectorAll("[data-en]").forEach(el=>{
-    el.textContent=el.getAttribute("data-"+language);
-  });
-  document.getElementById("enBtn").classList.toggle("active",language==="en");
-  document.getElementById("esBtn").classList.toggle("active",language==="es");
-  localStorage.setItem("language",language);
+let lang='en';
+function toggleMenu(){document.getElementById('nav').classList.toggle('open')}
+function toggleLanguage(){
+  lang=lang==='en'?'es':'en';
+  document.querySelectorAll('[data-en]').forEach(el=>el.innerHTML=el.dataset[lang]);
+  document.documentElement.lang=lang;
 }
-const savedLanguage=localStorage.getItem("language");
-if(savedLanguage)setLanguage(savedLanguage);
-function submitForm(event){
-  event.preventDefault();
-  alert("Thank you! We will contact you soon.");
+function sendForm(e){
+  e.preventDefault();
+  alert(lang==='en'?'Thanks! Please call (956) 371-9738 to complete your estimate request.':'¡Gracias! Llame al (956) 371-9738 para completar su solicitud de cotización.');
 }

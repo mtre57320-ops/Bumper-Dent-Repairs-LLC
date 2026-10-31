@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111"/>
+      <stop offset="1" stop-color="#292929"/>
+    </linearGradient>
+    <linearGradient id="car" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eeeeee"/>
+      <stop offset="1" stop-color="#777"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <circle cx="980" cy="110" r="180" fill="#f5c400" opacity=".10"/>
+  <circle cx="1080" cy="610" r="230" fill="#f5c400" opacity=".07"/>
+  <path d="M170 470 L250 350 Q290 300 370 285 L720 285 Q800 300 860 360 L1000 430 Q1040 450 1045 500 L1035 535 L165 535 Q145 510 170 470Z" fill="url(#car)" stroke="#444" stroke-width="10"/>
+  <path d="M330 310 L405 245 L700 245 L800 315Z" fill="#202a33" stroke="#555" stroke-width="8"/>
+  <path d="M405 250 L455 250 L425 305 L350 305Z" fill="#71808b" opacity=".8"/>
+  <path d="M475 250 L680 250 L750 310 L455 310Z" fill="#8d9aa3" opacity=".7"/>
+  <circle cx="315" cy="535" r="72" fill="#171717" stroke="#555" stroke-width="14"/>
+  <circle cx="315" cy="535" r="32" fill="#aaa"/>
+  <circle cx="850" cy="535" r="72" fill="#171717" stroke="#555" stroke-width="14"/>
+  <circle cx="850" cy="535" r="32" fill="#aaa"/>
+  <path d="M730 390 Q800 365 865 395" fill="none" stroke="#f5c400" stroke-width="12" stroke-linecap="round"/>
+  <path d="M715 415 Q790 395 850 420" fill="none" stroke="#f5c400" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  <rect x="70" y="70" width="410" height="105" rx="22" fill="#000" opacity=".65"/>
+  <text x="100" y="120" fill="#f5c400" font-family="Arial, sans-serif" font-size="32" font-weight="700">CREASE REPAIR</text>
+  <text x="100" y="155" fill="#fff" font-family="Arial, sans-serif" font-size="20">Careful panel restoration</text>
+  <text x="600" y="640" text-anchor="middle" fill="#fff" opacity=".75" font-family="Arial, sans-serif" font-size="18">BUMPER DENT REPAIRS • BROWNSVILLE, TX</text>
+</svg>
